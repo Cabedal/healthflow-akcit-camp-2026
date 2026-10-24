@@ -1,8 +1,41 @@
 {
-  "nota": "Recorte didático, com campos selecionados. Não é uma resposta completa da API nem o resultado observado da entrada de exemplo.",
+  "nota": "Recorte didático dos dados que compõem a ficha no dashboard. Não é uma resposta completa da API nem o resultado observado da entrada de exemplo. Não houve execução do modelo para produzir este arquivo.",
+  "episode_state": {
+    "messages": [
+      {
+        "id": "m0001",
+        "text": "Tenho 30 anos e comecei a sentir um incômodo hoje."
+      }
+    ]
+  },
   "assessment": {
     "extraction_status": "PARTIAL",
     "risk_proposal": "INCONCLUSIVO",
+    "facts": {},
+    "referral_plan": {
+      "schema_version": "healthflow-referral-v1",
+      "care_setting": "INDEFINIDO",
+      "required_resources": [],
+      "seek_care_deadline": {
+        "status": "UNKNOWN",
+        "kind": "UNKNOWN",
+        "within_minutes": null,
+        "description": null,
+        "source_basis": []
+      },
+      "transport_or_support": "NOT_ASSESSED",
+      "support_description": null,
+      "alternatives": [],
+      "human_review_required": true,
+      "source_basis": [],
+      "semantic_verdict": "NOT_CHECKED",
+      "pending_dimensions": [
+        "care_setting",
+        "required_resources",
+        "seek_care_deadline",
+        "transport_or_support"
+      ]
+    },
     "human_review_required": true,
     "evidence_semantics_verified": false,
     "confirmed_destination_id": null,
