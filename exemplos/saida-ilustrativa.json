@@ -1,0 +1,11 @@
+{
+  "nota": "Recorte didático, com campos selecionados. Não é uma resposta completa da API nem o resultado observado da entrada de exemplo.",
+  "assessment": {
+    "extraction_status": "PARTIAL",
+    "risk_proposal": "INCONCLUSIVO",
+    "human_review_required": true,
+    "evidence_semantics_verified": false,
+    "confirmed_destination_id": null,
+    "dispatch_decision": null
+  }
+}
